@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let person = {firstname: "Le", lastname: "Loi",address: "Ha Noi"};
+    for (let p in person) {
+        console.log(p);
+    }
+    let webpage = "codegym.com";
+    for (let w of webpage) {
+        console.log(w);
+    }
+    let animals = [
+        {id:1,
+        name:"cat",
+        size:"small"},
+        {id:2,
+        name:"dog",
+        size:"small"}
+    ]
+    animals.forEach(function (a) {
+        console.log (a);
+    })
+</script>
+
+</body>
+</html>
